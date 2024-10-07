@@ -18,22 +18,22 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.LeftArrow)){
-            rb.AddForce(new Vector2(-100, 0));
-        }
-        else if (Input.GetKeyDown(KeyCode.RightArrow)){
-            rb.AddForce(new Vector2(100, 0));
-        }
-        else if (Input.GetKeyDown(KeyCode.UpArrow)){
-            rb.AddForce(new Vector2(0, 100));
-        }
-        else if (Input.GetKeyDown(KeyCode.DownArrow)){
-            rb.AddForce(new Vector2(0, -100));
-        }
+        // if(Input.GetKeyDown(KeyCode.LeftArrow)){
+        //     rb.AddForce(new Vector2(-100, 0));
+        // }
+        // else if (Input.GetKeyDown(KeyCode.RightArrow)){
+        //     rb.AddForce(new Vector2(100, 0));
+        // }
+        // else if (Input.GetKeyDown(KeyCode.UpArrow)){
+        //     rb.AddForce(new Vector2(0, 100));
+        // }
+        // else if (Input.GetKeyDown(KeyCode.DownArrow)){
+        //     rb.AddForce(new Vector2(0, -100));
+        // }
 
-        if(Input.GetKeyDown(KeyCode.Tab)){
-            rb.gravityScale = rb.gravityScale * -1;
-        }
+        // if(Input.GetKeyDown(KeyCode.Tab)){
+        //     rb.gravityScale = rb.gravityScale * -1;
+        // }
 
         Debug.Log(rb.velocity);
     }
